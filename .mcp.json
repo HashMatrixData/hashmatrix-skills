@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "tmux": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "tmux-mcp"]
+    },
+    "ssh": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@fangjunjie/ssh-mcp-server"],
+      "env": {}
+    }
+  }
+}

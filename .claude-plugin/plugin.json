@@ -1,0 +1,12 @@
+{
+  "name": "hashmatrix-toolkit",
+  "version": "0.1.0",
+  "description": "HashMatrix 数据中台开发工具集：隔离上下文 Code Review 子代理、Feature/Issue 工作流、规范化 GitHub Issue 上报。Skill 共性放主文件、项目差异放 resources/。",
+  "author": {
+    "name": "HashMatrixData"
+  },
+  "homepage": "https://github.com/HashMatrixData/hashmatrix-skills",
+  "repository": "https://github.com/HashMatrixData/hashmatrix-skills",
+  "license": "Apache-2.0",
+  "keywords": ["code-review", "github-issues", "data-platform", "workflow", "subagent"]
+}

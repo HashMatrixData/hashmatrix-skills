@@ -1,0 +1,19 @@
+# ===== 敏感材料：永不入库（红线）=====
+.mcp.local.json
+*.local
+.env
+.env.*
+secrets/
+*.pem
+*.key
+ssh-targets.json
+
+# ===== OS / IDE =====
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ===== Node =====
+node_modules/
+*.log
