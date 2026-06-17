@@ -37,6 +37,7 @@ claude config set --user autoUpdatesEnabled true       # 开启自动更新
 | `/add-feature` | Feature 实现完整工作流，实现后**内嵌拉起 `code-reviewer` 子代理**做客观审查 |
 | `/fix-issue` | 从 GitHub Issue 出发：复现 → 修复 → 回归 → 关单 |
 | `/issue-report` | 规范化创建 **GitHub Issue**（Bug/Feature/Task），引导收集关键信息 |
+| `/enhance-skill` | 反馈 Skill 本身的问题/改进建议，自动建 GitHub Issue 到本仓（区分主文件 vs resource 落点） |
 
 ### Agent（子代理）
 
