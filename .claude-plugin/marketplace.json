@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "HashMatrix 数据中台团队的 Claude Code 技能与工具集（开源）",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {

@@ -38,6 +38,7 @@ claude config set --user autoUpdatesEnabled true       # 开启自动更新
 | `/fix-issue` | 从 GitHub Issue 出发：复现 → 修复 → 回归 → 关单 |
 | `/issue-report` | 规范化创建 **GitHub Issue**（Bug/Feature/Task），引导收集关键信息 |
 | `/enhance-skill` | 反馈 Skill 本身的问题/改进建议，自动建 GitHub Issue 到本仓（区分主文件 vs resource 落点） |
+| `/split-task` | 把大 Story/Epic/Issue 科学拆成可独立交付的子任务，用 GitHub sub-issue 下单（含依赖图 + 末端集成回归守护） |
 
 ### Agent（子代理）
 
