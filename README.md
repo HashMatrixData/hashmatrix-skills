@@ -50,6 +50,7 @@ claude config set --user autoUpdatesEnabled true       # 开启自动更新
 | Skill | 说明 |
 |-------|------|
 | `/create-skill` | 创建新的跨项目 Skill（共性放主文件 / 差异放 resources/） |
+| `/review-enhancement` | 维护者侧：审阅 enhance-skill 提的改进 Issue → 评估落点 → 实施 → 关单 |
 
 ## MCP 与凭据（重要）
 
